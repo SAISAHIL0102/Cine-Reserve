@@ -2,9 +2,10 @@
 
 Cine Reserve is a terminal-based movie ticket booking system designed using Object-Oriented Programming (OOP) principles.It manages movie listings, showtimes, customers, seating arrangements, and booking tickets with price calculations and receipt generation.
 
-✅ Features
+# Features
 
 Object-Oriented Design with well-defined classes:
+
 Seat, Movie, Show, Customer, Booking, Theater, and MovieBookingSystem
 Seat Categories: VIP, Premium, Regular – each with distinct pricing.
 Seat Status Tracking: Available, Reserved, Booked.
@@ -12,6 +13,7 @@ Dynamic Show Management with real-time updates.
 User Input Validation for robust interaction.
 
 Booking Receipt Generation with:
+
   Customer & Movie Details
   Tax & Service Fee Calculations (GST, service charge)
   ASCII-formatted ticket with summary
@@ -20,7 +22,7 @@ Booking Search by ID with optional reprinting of receipt.
 Theater Statistics showing occupancy rate and revenue.
 Persistent seat status within runtime session (via pointers).
 
-🧱 Classes & Responsibilities
+# Classes & Responsibilities
 
 Class	                                   Responsibility
 Seat	                  Models a seat in the theater (row, column, type, status, price)
@@ -31,7 +33,7 @@ Booking	                Manages the booked seats, generates invoice with tax/ser
 Theater	                Central hub for managing seats, bookings, shows, and displaying data
 MovieBookingSystem    	Main app loop with menu-driven interaction and booking workflows
 
-🧾 Receipt Format:
+# Receipt Format:
 
   The system prints a detailed receipt with:
     Booking ID and timestamp
@@ -42,14 +44,14 @@ MovieBookingSystem    	Main app loop with menu-driven interaction and booking wo
     Total amount
 
     
-💻 Technologies Used
+# Technologies Used
 
   Language: C++
   Libraries: iostream, vector, map, iomanip, ctime, string, etc.
   Design: OOP-based modular design
   Interface: Command Line Interface (CLI)
 
-🛠️ How It Works
+# How It Works
 
  Start the System – runs a menu-driven loop.
  View Shows – lists currently available showtimes and movies.
@@ -59,15 +61,13 @@ MovieBookingSystem    	Main app loop with menu-driven interaction and booking wo
  Search Booking – by booking ID for confirmation or reprinting.
  View Stats – seats booked, occupancy %, revenue, etc.
 
- 1. WELCOME PAGE & OPTIONS SELECTION
+# WELCOME PAGE & OPTIONS SELECTION
     
 
 <img width="1202" height="267" alt="Screenshot 2025-07-31 235540" src="https://github.com/user-attachments/assets/5e67e247-1f58-41cb-a2ed-039b54ae190f" />
 
 
-2. VIEW SHOWS
-
-
+# VIEW SHOWS
 
 
 
@@ -82,12 +82,12 @@ MovieBookingSystem    	Main app loop with menu-driven interaction and booking wo
 
    
 
-3. VIEW SEATING
+# VIEW SEATING
 
   <img width="489" height="398" alt="image" src="https://github.com/user-attachments/assets/235dcd36-f908-4728-8220-95197b170c1a" />
 
 
-4. TICKET BOOKING
+# TICKET BOOKING
    
    
     <img width="403" height="764" alt="image" src="https://github.com/user-attachments/assets/caeb0079-2d87-46cd-9af1-1cb2d38e56cb" />
@@ -115,7 +115,7 @@ MovieBookingSystem    	Main app loop with menu-driven interaction and booking wo
 
    
 
-6. Search Booking & Print Receipt
+# Search Booking & Print Receipt
 
 
    <img width="480" height="685" alt="Screenshot 2025-08-01 002935" src="https://github.com/user-attachments/assets/8b5e8575-28f5-4868-ab23-19698eaef841" />
@@ -128,14 +128,14 @@ MovieBookingSystem    	Main app loop with menu-driven interaction and booking wo
    
    
 
-7. THEATER STATISTICS
+# THEATER STATISTICS
    
      <img width="260" height="226" alt="image" src="https://github.com/user-attachments/assets/999f7974-f331-4c09-9f60-88ad9e3f603f" />
 
 
 
 
-8. Closing
+# Closing
 
      
 
